@@ -9,17 +9,19 @@ Access-Control-Allow-Origin: http://localhost:3000
 Access-Control-Expose-Headers
 Access-Control-Max-Age: 1728000
 Cache-Control: max-age=0, private, must-revalidate
+Connection: keep-alive
 Content-Encoding: gzip
 Content-Type: application/json; charset=utf-8
-Date: Tue, 19 Oct 2021 15:37:54 GMT
-ETag: W/"aafbf3a7b1b73408aeb9a5e7ff22b7da"
+Date: Tue, 19 Oct 2021 15:38:42 GMT
+ETag: W/"c98cba143b527b2a8a7d4c4422f5e798"
 Server: nginx/1.17.0
-Set-Cookie: _session_id=U3ZNQlkrV0wrZ3ZhZUg2bHgra082ajhzZnljeC9JcEdVYm9uZkdXd0JQTmhuWVZBdjF4dHN6UElEbEdEa1RFYzZFZ1N6TkRoQ2dHYlNoK21hN0Fqb3lRNHd4UlRuWU5WSlpqSC9xblFPMzg9LS02dEV0ejYrTEgrbU9xTWlaUmJsRnd3PT0%3D--f23fee84a7dd8ca4ce4fb0d284e93b15c7d9a35f; path=/; expires=Thu, 18 Nov 2021 16:37:54 -0000; HttpOnly
+Set-Cookie: _session_id=YTJmekhKMEZvR1c3UVBONjFuY0pYMndocTZmd3Q4M25VdFR1MjQwTmFQOW9taDB0R0V5YUxkZG82M3E4TFdTVjJsNDlBaXV6dmo1dWdURDA4Q2NwSWhncXExUFZKU3Bma2xFWFpJTWV2QTA9LS1rNUJTb2FZb1cvUEdYWTBVOUhyMWh3PT0%3D--bd7d058037466122288bec2dc705ca04a31d0d19; path=/; expires=Thu, 18 Nov 2021 16:38:42 -0000; HttpOnly
 Strict-Transport-Security: max-age=15768000
 Strict-Transport-Security: max-age=15768000
+Transfer-Encoding: chunked
 Vary: Origin
-X-Request-Id: 83501f8b-b713-4cfb-a7c3-ff895d17b994
-X-Runtime: 0.028938
+X-Request-Id: 04bd66ca-ef1c-4867-9466-b4eea87caaf0
+X-Runtime: 0.017412
 Accept: application/json, text/plain, */*
 Accept-Encoding: gzip, deflate, br
 Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
@@ -43,6 +45,7 @@ location: 77
 
 
 
-####### RESPONSE ########
 
-{"query":"вода","total":121,"results":{"ids":["11184","5984","7150","11827","3802","10911","1130","11136","11164","11166","11135","9156","3057","688","11165","7031","9174","10662","10914","5462"],"categories":[{"id":"180","name":"Вода","count":46},{"id":"12","name":"Детское питание","count":7},{"id":"182","name":"Газировка и лимонады","count":47},{"id":"277","name":"Напитки vegan","count":3},{"id":"6","name":"Соки и нектары","count":3},{"id":"164","name":"Уход за кожей лица","count":2},{"id":"237","name":"Для бани и сауны","count":1},{"id":"29","name":"Фрукты и ягоды","count":1},{"id":"46","name":"Сыры","count":4},{"id":"141","name":"Без лактозы","count":2},{"id":"101","name":"Салаты и готовые блюда","count":1},{"id":"202","name":"Водный спорт","count":4}]}}
+######## RESPONSE #######
+
+{"query":"вода","total":0,"results":{"ids":[],"categories":[]}}
