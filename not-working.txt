@@ -1,0 +1,51 @@
+Request URL: https://api.multisearch.io/?id=11608&query=%D0%B2%D0%BE%D0%B4%D0%B0&categories=0&limit=20&location=77
+Request Method: GET
+Status Code: 200 OK
+Remote Address: 144.76.65.152:443
+Referrer Policy: strict-origin-when-cross-origin
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, DELETE
+Access-Control-Allow-Origin: http://localhost:3000
+Access-Control-Expose-Headers
+Access-Control-Max-Age: 1728000
+Cache-Control: max-age=0, private, must-revalidate
+Connection: keep-alive
+Content-Encoding: gzip
+Content-Type: application/json; charset=utf-8
+Date: Tue, 19 Oct 2021 15:38:42 GMT
+ETag: W/"c98cba143b527b2a8a7d4c4422f5e798"
+Server: nginx/1.17.0
+Set-Cookie: _session_id=YTJmekhKMEZvR1c3UVBONjFuY0pYMndocTZmd3Q4M25VdFR1MjQwTmFQOW9taDB0R0V5YUxkZG82M3E4TFdTVjJsNDlBaXV6dmo1dWdURDA4Q2NwSWhncXExUFZKU3Bma2xFWFpJTWV2QTA9LS1rNUJTb2FZb1cvUEdYWTBVOUhyMWh3PT0%3D--bd7d058037466122288bec2dc705ca04a31d0d19; path=/; expires=Thu, 18 Nov 2021 16:38:42 -0000; HttpOnly
+Strict-Transport-Security: max-age=15768000
+Strict-Transport-Security: max-age=15768000
+Transfer-Encoding: chunked
+Vary: Origin
+X-Request-Id: 04bd66ca-ef1c-4867-9466-b4eea87caaf0
+X-Runtime: 0.017412
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Host: api.multisearch.io
+If-None-Match: W/"aafbf3a7b1b73408aeb9a5e7ff22b7da"
+Origin: http://localhost:3000
+Referer: http://localhost:3000/
+sec-ch-ua: "Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+id: 11608
+query: вода
+categories: 0
+limit: 20
+location: 77
+
+
+
+
+######## RESPONSE #######
+
+{"query":"вода","total":0,"results":{"ids":[],"categories":[]}}
