@@ -1,0 +1,48 @@
+Request URL: https://api.multisearch.io/?id=11608&query=%D0%B2%D0%BE%D0%B4%D0%B0&categories=0&limit=20&location=77
+Request Method: GET
+Status Code: 200 OK
+Remote Address: 144.76.65.152:443
+Referrer Policy: strict-origin-when-cross-origin
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, DELETE
+Access-Control-Allow-Origin: http://localhost:3000
+Access-Control-Expose-Headers
+Access-Control-Max-Age: 1728000
+Cache-Control: max-age=0, private, must-revalidate
+Content-Encoding: gzip
+Content-Type: application/json; charset=utf-8
+Date: Tue, 19 Oct 2021 15:37:54 GMT
+ETag: W/"aafbf3a7b1b73408aeb9a5e7ff22b7da"
+Server: nginx/1.17.0
+Set-Cookie: _session_id=U3ZNQlkrV0wrZ3ZhZUg2bHgra082ajhzZnljeC9JcEdVYm9uZkdXd0JQTmhuWVZBdjF4dHN6UElEbEdEa1RFYzZFZ1N6TkRoQ2dHYlNoK21hN0Fqb3lRNHd4UlRuWU5WSlpqSC9xblFPMzg9LS02dEV0ejYrTEgrbU9xTWlaUmJsRnd3PT0%3D--f23fee84a7dd8ca4ce4fb0d284e93b15c7d9a35f; path=/; expires=Thu, 18 Nov 2021 16:37:54 -0000; HttpOnly
+Strict-Transport-Security: max-age=15768000
+Strict-Transport-Security: max-age=15768000
+Vary: Origin
+X-Request-Id: 83501f8b-b713-4cfb-a7c3-ff895d17b994
+X-Runtime: 0.028938
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Host: api.multisearch.io
+If-None-Match: W/"aafbf3a7b1b73408aeb9a5e7ff22b7da"
+Origin: http://localhost:3000
+Referer: http://localhost:3000/
+sec-ch-ua: "Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+id: 11608
+query: вода
+categories: 0
+limit: 20
+location: 77
+
+
+
+####### RESPONSE ########
+
+{"query":"вода","total":121,"results":{"ids":["11184","5984","7150","11827","3802","10911","1130","11136","11164","11166","11135","9156","3057","688","11165","7031","9174","10662","10914","5462"],"categories":[{"id":"180","name":"Вода","count":46},{"id":"12","name":"Детское питание","count":7},{"id":"182","name":"Газировка и лимонады","count":47},{"id":"277","name":"Напитки vegan","count":3},{"id":"6","name":"Соки и нектары","count":3},{"id":"164","name":"Уход за кожей лица","count":2},{"id":"237","name":"Для бани и сауны","count":1},{"id":"29","name":"Фрукты и ягоды","count":1},{"id":"46","name":"Сыры","count":4},{"id":"141","name":"Без лактозы","count":2},{"id":"101","name":"Салаты и готовые блюда","count":1},{"id":"202","name":"Водный спорт","count":4}]}}
